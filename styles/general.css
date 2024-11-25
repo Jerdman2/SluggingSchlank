@@ -2,13 +2,83 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+html {
+	  cursor:  url('jesus-cross.gif'), none;
+}
 body {
   /* This style below will be inherited */
   font-family: Roboto, Arial;
   margin: 0;
-  padding-top: 80px;
-  padding-left: 96px;
-  padding-right: 24px;
-  background-color: rgb(248, 248, 248);
+height:100%;
+width:100vw;
+  background-color: transparent;
+
+  color: magenta;
+}
+table {
+	 border-collapse: collapse;
+	font-family: monospace;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	table-layout: fixed;
+	overflow-x: hidden;
+	height: auto;
+	width: 100%;
+
+}
+th, td {
+		border: 3px solid magenta;
+	border-collapse: collapse;
+}
+video {
+	position:fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index:-1;
+}
+.Jesus1 {
+	/* changing the button to be red background white text and no border */
+	background-color: red;
+	color: white;
+	border: none;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 500px;
+	padding-right: 500px;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+}
+.Jesus1:hover {
+	background-color: green;
+	color: blue;
+	cursor: none;
+	text-align: left;
+	box-shadow: 5px 5px 10px rbga(0, 0, 0, 0.15);
+}
+.JesusDiv {
+	align-items: center;
+	align-content: center;
+	text-align:  center;
+}
+.JesusTable {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  color: magenta;
+}
+.blog {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 20px;
+	color: magenta;
+	margin-top: 0;
+	shadow: 2px;
 }
