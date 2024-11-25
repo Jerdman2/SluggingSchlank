@@ -3,7 +3,7 @@ p {
   margin-bottom: 0;
 }
 html {
-	  cursor:  url('jesus-cross.gif'), none;
+	  cursor:  url('jesus-cross.gif'), pointer;
 }
 body {
   /* This style below will be inherited */
