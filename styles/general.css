@@ -11,8 +11,6 @@ body {
   margin: 0;
 height:100%;
 width:100vw;
-  background-color: transparent;
-
   color: magenta;
 }
 table {
@@ -24,11 +22,12 @@ table {
 	overflow-x: hidden;
 	height: auto;
 	width: 100%;
-
+	background-color: rgba(255, 144, 85, 0.1);
 }
 th, td {
 		border: 3px solid magenta;
 	border-collapse: collapse;
+	background-color: rgba(255, 144, 85, 0.5);
 }
 video {
 	position:fixed;
