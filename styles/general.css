@@ -37,6 +37,17 @@ video {
 	min-height: 100%;
 	z-index:-1;
 }
+.video {
+	position:fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index:-1;
+}
+.navigation {
+	text-align: top;
+}
 .Jesus1 {
 	/* changing the button to be red background white text and no border */
 	background-color: red;
@@ -78,6 +89,13 @@ video {
 	font-weight: bold;
 	font-size: 20px;
 	color: magenta;
+	margin-top: 0;
+	shadow: 2px;
+}
+.schitzo {
+	font-family: Roboto;
+	font-size: 20px;
+	color: black;
 	margin-top: 0;
 	shadow: 2px;
 }
